@@ -277,6 +277,8 @@ align-self: center;
 
 .about-right img{
   width: 300px;
+  align-items: center;
+align-content: center;
 }
 
 /* courses section */
