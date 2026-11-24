@@ -67,7 +67,7 @@ ul{
 .homeContainer{
   width: 100%;
     position: relative;
-    height: 70vh;
+    height: 80vh;
     overflow: hidden;
 }
 
@@ -116,7 +116,6 @@ margin-top: 4rem;
 width: 150px;
 height: 50px;
 align-content: center;
-
 }
 
 .homeText a:hover{
@@ -245,7 +244,7 @@ justify-self: center;
     position: absolute;
     right: 0;
     gap: 12px;
-    top: 70px;
+    top: 60px;
     background-color: #081F59;;
     width: 100%;
     padding: 1rem;
@@ -264,7 +263,7 @@ cursor: pointer;
   }
 
 .homeContainer{
-    height: 125vh;
+    height: 100vh;
 }
 
 .homeText a{
@@ -276,12 +275,39 @@ align-self: center;
  text-align: center;
 }
 
-.about{
+.about-right img{
+  width: 300px;
+}
 
+/* courses section */
+.card img{
+width: 300px;
+align-items: center;
+align-content: center;
+}
+
+.card{
+  width: 300px;
+
+}
+
+.about{
   display: flex;
 flex-direction: column;
-align-items: center;
+justify-content: center;
 gap: 2rem;
+}
+
+.about-left{
+  text-align: center;
+}
+
+.about-right{
+  text-align: center;
+}
+
+.btn{
+align-self: center;
 }
 
 /* about card section */
@@ -290,7 +316,21 @@ gap: 2rem;
   justify-content: center;
   align-items: center;
 }
+}
 
+@media (max-width: 320px) {
+  
+  .homeContainer{
+    height: 120vh;
+}
+}
+
+
+@media (max-width: 678px) {
+  
+  .homeContainer{
+    height: 140vh;
+}
 }
 
 /* media query screen side */
