@@ -1,0 +1,298 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* first head */
+.firstHead{
+  display: none;
+}
+/* first head ending */
+
+
+/* header menus section */
+.menusContainer{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.2rem 2rem;
+  background-color: #081F59;
+  box-shadow: 2px 1px 2px rgb(22, 19, 19);
+  top: 0;
+  z-index: 50;
+  position: fixed;
+}
+
+.csiLogo{
+  border-radius: 50%;
+  cursor: pointer;
+  width: 40px;
+}
+
+ul{
+  display: flex;
+  gap: 2rem;
+}
+
+.menus li{
+  list-style: none;
+}
+
+.menus a{
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+}
+
+.menus a:hover{
+  border-bottom: 1px solid darkgoldenrod;
+  border-top: 1px solid darkgoldenrod;
+}
+
+.fa-solid{
+  color: white;
+
+}
+
+.burger{
+  display: none;
+
+}
+
+/* ending of header menus section */
+
+/* home section */
+.homeContainer{
+  width: 100%;
+    position: relative;
+    height: 70vh;
+    overflow: hidden;
+}
+
+.homeImage{
+  width: 100%;
+  overflow: hidden;
+  height: 100%;
+  object-fit: cover;
+  /* position: relative; */
+}
+
+.homeText{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  inset: 0;
+    background: linear-gradient(rgba(15, 207, 47, 0.856), rgba(77, 6, 209, 0.795));
+padding: 4rem;
+gap: 1.5rem;
+margin-top: 4rem;
+}
+
+.homeText h1{
+  color: white;
+  font-size: 30px;
+}
+
+.csi{
+  color: gold;
+}
+
+.homeText p{
+  color: white;
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.btn{
+  background-color: #081F59;
+ text-decoration: none;
+ font-size: 20px;
+ text-align: center;
+ padding: 0.5rem 1rem;
+ border-radius: 1rem;
+ color: white;
+width: 150px;
+height: 50px;
+align-content: center;
+
+}
+
+.homeText a:hover{
+  border: solid 2px white;
+  background: none;
+}
+/* home section ending */
+
+/* about section */
+.about{
+  padding: 2rem 4rem;
+  display: flex;
+  gap: 8rem;
+}
+
+.about-left{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.about-left h2{
+  color: #081F59;
+  font-size: 24px;
+}
+
+.about-left span{
+  color: goldenrod;
+}
+
+.about-left p{
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.about-right img{
+  width: 400px;
+}
+
+.about-right img:hover{
+  scale: 1.02;
+}
+
+/* about secton ending */
+
+
+/* course section */
+
+.courses{
+  padding: 2rem 4rem;
+  background-color: whitesmoke;
+}
+
+.courses h3{
+color: #081F59;
+font-size: 22px;
+}
+
+.courses p{
+  font-size: 20px;
+  margin-top: 1rem;
+  text-align: justify;
+}
+
+.about-cards{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 2rem;
+}
+
+.card{
+  width: 350px;
+  /* border: 2px solid red; */
+  border-radius: 1rem;
+  pad: 1rem;
+  overflow: hidden;
+  background-color: #081F59;
+  margin-top: 2rem;
+}
+
+.card:hover{
+  transform: scale(1.02);
+  transition: 0.5ms ease;
+}
+
+.card img{
+width: 350px;
+justify-content: center;
+justify-items: center;
+justify-self: center;
+/* overflow: hidden; */
+}
+
+.cardText{
+  padding: 2rem;
+}
+
+.cardText a{
+ color: #081F59;
+  text-decoration: none;
+  background-color: whitesmoke;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.cardText p{
+  color: white;
+  font-size: 16px;
+}
+
+
+/* courses section ending */
+
+
+
+
+
+/* media query */
+@media (max-width: 900px) {
+  ul{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    gap: 12px;
+    top: 70px;
+    background-color: #081F59;;
+    width: 100%;
+    padding: 1rem;
+    display: none;
+    align-items: center;
+  }
+
+  .burger{
+  display: flex;
+font-size: 28px;
+cursor: pointer;
+  }
+
+  ul.active{
+    display: flex;
+  }
+
+.homeContainer{
+    height: 125vh;
+}
+
+.homeText a{
+align-self: center;
+
+}
+
+.homeText{
+ text-align: center;
+}
+
+.about{
+
+  display: flex;
+flex-direction: column;
+align-items: center;
+gap: 2rem;
+}
+
+/* about card section */
+.about-cards{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+}
+
+/* media query screen side */
+
+/* media query ending */
