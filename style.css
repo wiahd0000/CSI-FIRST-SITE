@@ -327,8 +327,13 @@ align-self: center;
 }
 }
 
+/* second media query screen side */
+@media (max-width: 768px) {
+  .homeContainer{
+    height: 120vh;
+}
 
-
-/* media query screen side */
+  
+}
 
 /* media query ending */
