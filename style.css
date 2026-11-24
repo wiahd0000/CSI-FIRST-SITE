@@ -330,7 +330,7 @@ align-self: center;
 /* second media query screen side */
 @media (max-width: 768px) {
   .homeContainer{
-    height: 120vh;
+    height: 125vh;
 }
 
 }
