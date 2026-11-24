@@ -333,7 +333,14 @@ align-self: center;
     height: 120vh;
 }
 
-  
 }
 
 /* media query ending */
+
+
+@media (max-width: 320px) {
+  .homeContainer{
+    height: 130vh;
+}
+
+}
