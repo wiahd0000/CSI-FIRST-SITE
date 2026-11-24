@@ -233,6 +233,84 @@ justify-self: center;
 
 /* courses section ending */
 
+/* footer */
+footer{
+  width: 100%;
+  background-color: #081F59;
+  padding: 2rem;
+
+}
+
+.line{
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.footer-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.footer-container h4{
+  color: white;
+  font-size: 18px;
+}
+
+.socialmedia{
+  display: flex;
+  flex-direction: column;
+ justify-content: center;
+}
+
+.socialmedia a{
+  color: white;
+  font-size: 20px;
+  display: flex;
+margin-top: 0.5rem;
+text-decoration: none;
+}
+
+.socialmedia a i{
+  margin-right: 1rem;
+  
+}
+
+.Contact{
+  display: flex;
+  flex-direction: column;
+}
+
+.Contact a{
+  color: white;
+  text-decoration: none;
+}
+
+
+.Contact a i{
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+
+.useFullLink{
+  display: flex;
+  flex-direction: column;
+ gap: 0.5rem;
+}
+
+.useFullLink a{
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.useFullLink li{
+  list-style: none;
+}
+
+/* footer ending */
+
 
 
 
@@ -325,6 +403,35 @@ align-self: center;
 .courses{
   padding: 2rem;
 }
+
+/* footer */
+.footer-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ text-align: center;
+}
+
+.footer-container h4{
+  color: goldenrod;
+text-decoration: underline;
+
+}
+
+.getTouch{
+  margin-top: 2rem;
+}
+
+.getTouch h4{
+color: goldenrod;
+text-decoration: underline;
+}
+
+
+.quck h4{
+  margin-top: 2rem;
+}
+
 }
 
 /* second media query screen side */
